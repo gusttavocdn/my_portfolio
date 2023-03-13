@@ -24,7 +24,7 @@ const Ball = (props) => {
       <mesh
         castShadow
         receiveShadow
-        scale={2}
+        scale={2.75}
       >
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
@@ -36,7 +36,7 @@ const Ball = (props) => {
         <Decal
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
-          scale={0.5}
+          scale={1}
           map={decal}
           flatShading
         />
