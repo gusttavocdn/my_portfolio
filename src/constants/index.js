@@ -10,9 +10,6 @@ import {
   mongodb,
   git,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   trybe,
   atento,
   classSolutions,
@@ -21,6 +18,16 @@ import {
   jest,
   python,
   shellScript,
+  tfcImage,
+  blogImage,
+  born2beRoot,
+  libft,
+  teamsImage,
+  ftPrintF,
+  habitsImage,
+  getNextLine,
+  igniteGym,
+  apiImage,
 } from '../assets';
 
 export const navLinks = [
@@ -171,67 +178,223 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Trybe Futebol Clube',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Uma aplicação FullStack que exemplifica o gerenciamento de um campoenato de futebol. Usuarios comuns são capazes de se logar, utlizando jwt auth e vizualizar tabelas e partidas em andamento ou finalizada. O Administrador é capaz de realizar um CRUD completo nas partidas. Esse projeto foi desenvolvido seguindo o padrão de Arquitetura limpa.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'sequelize',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'typescript',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'clean-arch',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'express',
+        color: 'green-text-gradient',
+      },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: tfcImage,
+    source_code_link: 'https://github.com/gusttavocdn/trybe_futebol_clube',
+    preview_url: 'https://trybe-futebol-clube-three.vercel.app/leaderboard',
   },
   {
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+    name: 'Otaku Dev Blog',
+    description: 'Um blog utilizando a API do Github para gerenciar os posts',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
+        name: 'typescript',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'chakraUI',
+        color: 'green-text-gradient',
+      },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: blogImage,
+    source_code_link: 'https://github.com/gusttavocdn/otaku_dev_blog',
+    preview_url: 'https://otaku-dev-blog.vercel.app/',
   },
   {
-    name: 'Trip Guide',
+    name: 'AluraFlix - Server',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Uma API feita como parte do Challenge Backend 5°Edição da Alura. Basicamente essa API permite o gerenciamento de um CRUD de videos, sendo necessario autenticação de usuarios para gerenciar o sistema.',
     tags: [
       {
-        name: 'nextjs',
+        name: '.NET',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'entityframework',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'mvc',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: apiImage,
+    source_code_link: 'https://github.com/gusttavocdn/aluraflix_backend',
+  },
+  {
+    name: 'Ignite Gym',
+    description:
+      'O Ignite Gym é um applicativo mobile capaz de mostrar alguns exercicios para os usuarios fazerem. Permite criação de contas e os dados são salvos no celular utilizando Async Storage.',
+    tags: [
+      {
+        name: 'reactnative',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'asyncstorage',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'styledcomponents',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: igniteGym,
+    source_code_link: 'https://github.com/gusttavocdn/ignite_gym',
+  },
+  {
+    name: 'Habits',
+    description:
+      'Essa aplicação é um Habit Tracker onde o usuario pode cadastrar habitos diarios e fazer controle dos habitos cumpridos durante o dia. Foi desenvolvida uma versão Web e Mobile mais a API para gerenciamento.',
+    tags: [
+      {
+        name: 'reactnative',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'prisma',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'fastify',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: habitsImage,
+    source_code_link: 'https://github.com/gusttavocdn/habits_tracker',
+  },
+  {
+    name: 'Teams',
+    description:
+      'Teams é um app mobile que permite a criação de turmas para administração de competições e jogos. Esse é um projeto desenvolvido com o intuito de aprimorar meus conhecimentos em React Native e Typescript.',
+    tags: [
+      {
+        name: 'reactnative',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'asyncStorage',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'styledcomponents',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: teamsImage,
+    source_code_link: 'https://github.com/gusttavocdn/teams',
+  },
+  {
+    name: 'Born2BeRoot',
+    description:
+      'Esse é o quarto projeto do curriculo da 42SP. Consiste em configurar um servidor debian utilizando conceitos básicos de segurança.',
+    tags: [
+      {
+        name: 'debian',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'shellscript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'virtualbox',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: born2beRoot,
+    source_code_link: 'https://github.com/gusttavocdn/born2beroot',
+  },
+  {
+    name: 'FT_PRINTF',
+    description:
+      'Esse é o terceiro projeto do curriculo da 42SP. Consiste em criar uma versão propria da função printf do C.',
+    tags: [
+      {
+        name: 'C',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'makefile',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'logica',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: ftPrintF,
+    source_code_link: 'https://github.com/gusttavocdn/ft_printf',
+  },
+  {
+    name: 'GET_NEXT_LINE',
+    description:
+      'Esse é o segundo projeto do curriculo da 42SP. Consiste em criar uma função que seja capaz de ler de um fd uma linha por vez até o fim.',
+    tags: [
+      {
+        name: 'C',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'makefile',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'logica',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: getNextLine,
+    source_code_link: 'https://github.com/gusttavocdn/get_next_line',
+  },
+  {
+    name: 'LIBFT',
+    description:
+      'Esse é o primeiro projeto do curriculo da 42. Consiste em recriar diversas funções padrão da linguagem para serem usadas durante o desenvolvimento du curso, visto que não podemos usar as originais. Essa é uma biblioteca vive e novas funções podem ser adicionadas a ela aumentando suas funcionalidades.',
+    tags: [
+      {
+        name: 'C',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'makefile',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'logica',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: libft,
+    source_code_link: 'https://github.com/gusttavocdn/libft',
   },
 ];
 

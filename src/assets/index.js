@@ -6,6 +6,7 @@ import web from './web.png';
 import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
+import preview from './preview.png';
 
 import docker from './tech/docker.png';
 import git from './tech/git.png';
@@ -25,9 +26,16 @@ import classSolutions from './company/class.png';
 import trybe from './company/trybe.png';
 import atento from './company/atento.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import igniteGym from './projects/igniteGym.png';
+import tfcImage from './projects/tfc.png';
+import blogImage from './projects/blog.png';
+import born2beRoot from './projects/born2beroot.png';
+import libft from './projects/libft.png';
+import teamsImage from './projects/teams.png';
+import ftPrintF from './projects/ft_printf.png';
+import habitsImage from './projects/habits.png';
+import getNextLine from './projects/get_next_line.png';
+import apiImage from './projects/api.png';
 
 export {
   logo,
@@ -46,9 +54,6 @@ export {
   redux,
   tailwind,
   typescript,
-  carrent,
-  jobit,
-  tripguide,
   trybe,
   classSolutions,
   atento,
@@ -57,4 +62,15 @@ export {
   shellScript,
   python,
   jest,
+  tfcImage,
+  blogImage,
+  born2beRoot,
+  libft,
+  teamsImage,
+  ftPrintF,
+  habitsImage,
+  getNextLine,
+  igniteGym,
+  preview,
+  apiImage,
 };
