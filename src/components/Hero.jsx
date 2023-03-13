@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { styles } from '../styles';
+import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   return (
@@ -16,11 +16,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
+            Oi, eu sou o <span className='text-[#915EFF]'>Gustavo</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            Sou um desenvolvedor focado em resolver problemas e desenvolver
+            soluções de forma inteligente!
           </p>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className='w-3 h-3 rounded-full bg-secondary mb-1'
             />
