@@ -151,28 +151,32 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    testimonial: [
+      'O Gustavo foi um dos grandes sujeitos que conheci na Trybe. Além de programar bem demais - e aplicando',
+      'boas práticas de "clean code", SOLID e coisas mais avançadas que eu, particularmente, ainda vou levar muito',
+      'tempo pra conseguir chegar aos pés do que ele faz -, ele tem uma didática fantástica e sempre fez questão de',
+      'usar isso durante o curso: ele costumava ficar todo o dia até perto da meia noite ajudando o pessoal a revisar',
+      'código, esclarecendo conceitos e, eventualmente, só trocando uma ideia mesmo. Também sempre trazia',
+      'artigos interessantes e compartilhava com todos. ',
+      'Enfim, o Gustavo é uma pessoa fantástica de se trabalhar por tudo o que ele traz para qualquer equipe:',
+      'ele é muito ponderado, possui conhecimentos sólidos e procura aprender tudo sempre de uma maneira aprofundada,',
+      'e tem um senso de coletividade que é raro.',
+    ].join(''),
+    name: 'Guilherme Garcia',
+    designation: 'Deselvovedor FullStack',
+    image: 'https://github.com/GuilhermeSoaresGarcia.png',
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    testimonial: [
+      'Gustavo é um DEV excelente que vai além dos frameworks e busca entender como as coisas funcionam por baixo dos panos.',
+      'Em cada tópico ele estuda diversas fontes para ter um entendimento mais aprofundado,',
+      ' não só apenas da aplicação imediata. ',
+      'Além disso ele consegue ensinar de forma didática e engajar com a turma muito bem.',
+      'Nos projetos ele entrega soluções além do pedido com testes, documentação detalhada ou novas funcionalidades.',
+    ].join(''),
+    name: 'Felipe Krein Rocha',
+    designation: 'FullStack Developer',
+    image: 'https://github.com/fkrein1.png',
   },
 ];
 
