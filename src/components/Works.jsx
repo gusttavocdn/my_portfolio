@@ -18,7 +18,7 @@ const ProjectCard = ({
   preview_url,
 }) => {
   return (
-    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
+    <motion.div>
       <Tilt
         options={{
           max: 45,
@@ -83,16 +83,13 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div>
         <p className={`${styles.sectionSubText} `}>Meu trabalhok</p>
         <h2 className={`${styles.sectionHeadText}`}>Projetos.</h2>
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
+        <motion.p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
           Alguns projetos que desenvolvi ao longo desse 1 ano e meio de estudos
           contantes para aprimorar meus conhecimentos. Cada projeto esta
           brevemento descrito e reflete um pouco minhas habilidades em resolver
